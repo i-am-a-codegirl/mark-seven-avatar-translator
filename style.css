@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@300&display=swap');
+
+
+body{
+    font-family: 'Tourney', cursive;
+    margin: 0;
+    font-size: 40px;
+    background-color: #ECFEFF;
+    color: whitesmoke;
+   
+}
+
+:root{
+--primary-color: #8B5CF6;
+}
+
+body, html {
+    height: 100%;
+  }
+
+.img-bg{
+background-image: url("avatar\ 1.jpg");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div{
+
+    
+    margin:auto;
+    text-align: center;
+    font-family: inherit;
+    
+}
+
+/*.img{
+    background-image: url('avatar\ 2.jpg');
+    width: 100%;
+}*/
+
+main{
+    max-width: 600px;
+    margin-right: 35rem;
+    margin-left: 20rem;
+    font-family: 'Dosis', sans-serif;
+    font-style: oblique;
+    display: block;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+
+button{
+    padding: 1rem 2rem;
+    display: block;
+    margin: 1rem 0.5rem;
+    margin-left: 2rem;
+   background-color: var(--primary-color); 
+   font-size: large;
+   font-family: 'Shadows Into Light', cursive;
+   border: none;
+   color: whitesmoke;
+   border-radius: 0.3rem;
+}
+
+
+
+#text-translate{
+    font-size: 20px;
+    text-align: left;
+    margin-left:2rem;
+    color: #6B7280;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+
+#output{
+    margin-top: 0rem;
+    margin-left: 2rem;
+    overflow: scroll;
+    border: 2px dotted white;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 100%;
+    padding: 0.5rem;
+    min-height: 15vh;
+    max-height: 20vh;
+    text-align: left;
+    background-color: #5B21B6;
+    color: white;
+    border-radius: 0.3rem;
+    
+}
+
+textarea{
+    box-sizing: border-box;
+    display: block;
+    padding: 0.5rem;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    background-color: #5B21B6;
+    color: white;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    border: 2px dotted white;
+    
+}
+
+footer{
+background-color: var(--primary-color);
+position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+display:block;
+
+
+}
+
+footer p{
+    
+    margin: auto;
+    max-width: 600px;
+    font-size: 16px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: lighter;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
